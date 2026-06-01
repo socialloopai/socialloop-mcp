@@ -1,0 +1,23 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "ai.socialloop/socialloop",
+  "description": "Create and publish events on SocialLoop — ticketing, guest management and invitations, affiliates, coupons, community, team, and the full production OS. No account required to start.",
+  "version": "1.0.0",
+  "websiteUrl": "https://socialloop.ai/docs/mcp",
+  "repository": {
+    "url": "https://github.com/socialloopai/socialloop-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.socialloop.ai",
+      "description": "Connect with SocialLoop (OAuth) — publishes directly to a signed-in host's account."
+    },
+    {
+      "type": "streamable-http",
+      "url": "https://socialloop.ai/mcp",
+      "description": "Open endpoint (no login) — creates events anonymously and returns a claim link to publish."
+    }
+  ]
+}
