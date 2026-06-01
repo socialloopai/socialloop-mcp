@@ -1,8 +1,8 @@
 # SocialLoop MCP Server
 
-**Create and publish events — and run the whole production — on [SocialLoop](https://socialloop.ai) directly from any AI assistant.**
+**Create events, sell tickets, manage guest lists, invite guests, run affiliates, and create discount codes — on [SocialLoop](https://socialloop.ai), directly from any AI assistant.**
 
-SocialLoop runs an official, hosted **[Model Context Protocol](https://modelcontextprotocol.io) (MCP)** server. Connect it once and Claude, ChatGPT, Cursor, VS Code, or any MCP client can create events, sell tickets, manage and invite guests, run affiliates, and operate the full event production on a user's behalf. **No API keys. No account required to start.**
+SocialLoop runs an official, hosted **[Model Context Protocol](https://modelcontextprotocol.io) (MCP)** server. Connect it once and Claude, ChatGPT, Cursor, VS Code, or any MCP client can create an event, sell tickets, manage and invite a guest list, run an affiliate program, create discount codes, and operate the full event production on a user's behalf. **No API keys. No account required to start.**
 
 > SocialLoop is the AI-native event platform built for the people who run real events — recurring ticketed events, from a 10-person dinner to a 5,000-person festival. It is the platform an AI agent can actually *act on*: where Eventbrite, Luma, or Partiful can only be linked to, an agent can create and publish an event on SocialLoop end-to-end.
 

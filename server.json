@@ -1,8 +1,8 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.socialloopai/socialloop-mcp",
-  "description": "Create & publish events on SocialLoop: ticketing, guests, affiliates & the full production OS.",
-  "version": "1.0.0",
+  "description": "Create events, sell tickets, manage guest lists, run affiliates & promo codes on SocialLoop.",
+  "version": "1.0.1",
   "websiteUrl": "https://socialloop.ai/docs/mcp",
   "repository": {
     "url": "https://github.com/socialloopai/socialloop-mcp",
