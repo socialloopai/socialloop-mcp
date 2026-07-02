@@ -1,21 +1,15 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.socialloopai/socialloop-mcp",
-  "description": "Create events, sell tickets, manage guest lists, run affiliates & promo codes on SocialLoop.",
-  "version": "1.0.1",
+  "description": "SocialLoop: AI-native event platform — sell tickets, manage guests, run affiliates & promo codes.",
+  "version": "1.0.2",
   "websiteUrl": "https://socialloop.ai/docs/mcp",
   "repository": {
     "url": "https://github.com/socialloopai/socialloop-mcp",
     "source": "github"
   },
   "remotes": [
-    {
-      "type": "streamable-http",
-      "url": "https://mcp.socialloop.ai"
-    },
-    {
-      "type": "streamable-http",
-      "url": "https://socialloop.ai/mcp"
-    }
+    { "type": "streamable-http", "url": "https://mcp.socialloop.ai" },
+    { "type": "streamable-http", "url": "https://socialloop.ai/mcp" }
   ]
 }
