@@ -4,7 +4,7 @@
 
 SocialLoop runs an official, hosted **[Model Context Protocol](https://modelcontextprotocol.io) (MCP)** server. Connect it once and Claude, ChatGPT, Cursor, VS Code, or any MCP client can create an event, sell tickets, manage and invite a guest list, run an affiliate program, create discount codes, and operate the full event production on a user's behalf. **No API keys. No account required to start.**
 
-> SocialLoop is the AI-native event platform built for the people who run real events — recurring ticketed events, from a 10-person dinner to a 5,000-person festival. It is the platform an AI agent can actually *act on*: where Eventbrite, Luma, or Partiful can only be linked to, an agent can create and publish an event on SocialLoop end-to-end.
+> SocialLoop is the AI-native event platform built for the people who run real events — recurring ticketed events, from a 10-person dinner to a 5,000-person festival. It is the platform an AI agent can actually *act on*, through a first-party server that covers the whole event, money included: an agent creates and publishes an event, sells tickets, invites guests, and pays promoters on SocialLoop end-to-end.
 
 - 🌐 **Docs:** https://socialloop.ai/docs/mcp · **API:** https://socialloop.ai/docs/api
 - 🔌 **Endpoint (OAuth):** `https://mcp.socialloop.ai`
@@ -52,22 +52,22 @@ Settings → **Connectors** → add `https://socialloop.ai/mcp` (open) or `https
 
 ## What you can do
 
-The whole event, end-to-end — not just creation. Live tools are callable today; the rest are rolling out on the same catalog. Call `tools/list` (or `GET https://socialloop.ai/agent`) for the live set.
+The whole event, end-to-end — not just creation. Every capability below is live and callable today (147 tools as of 2026-09-05). Call `tools/list` (or `GET https://socialloop.ai/agent`) for the complete catalog with schemas.
 
 | Domain | Capabilities |
 | --- | --- |
 | **Events** | Create an event, edit it, publish it |
-| **Ticketing** | Free RSVP, paid, tiered, pay-what-you-want; application-gated tickets |
+| **Ticketing** | Free RSVP, paid, tiered, pay-what-you-want; approval-gated tickets; edit, reorder, archive tiers |
 | **Guests** | Build the guest list, **invite guests**, check-in, waitlist |
 | **Discounts** | Percent / fixed promo & coupon codes |
-| **Forms** | Custom intake forms with cross-event pre-fill |
-| **Affiliates** | Recruit promoters, set commissions, automate Stripe payouts |
-| **Community** | Members, memberships, routed Stripe |
+| **Forms** | Custom intake forms — draft, activate, read responses, export CSV |
+| **Affiliates** | Invite promoters, set commissions, read tracked sales — payouts through Stripe Connect |
+| **Community** | Members, join requests, community calendar, revenue-split terms |
 | **Team** | Invite staff with scoped roles |
-| **Production OS** | Budget, vendors, run-of-show, programming/talent, schedule, project & task management |
-| **Analytics** | Views, RSVPs, sales, conversion, revenue |
+| **Production OS** | Budget & expenses, vendors, run-of-show, programming/talent, schedule, projects & tasks, transactions |
+| **Analytics** | Revenue, ticket sales, per-tier and per-affiliate breakdown |
 
-**Live now:** `create_event_draft`, `update_event_draft`, `create_promo_code`.
+**A few of the live tools:** `discover_events`, `create_event_draft`, `update_event`, `add_ticket_tier`, `send_invitations`, `check_in_guest`, `add_affiliate`, `create_promo_code`, `create_form`, `create_community`, `invite_team_member`, `record_expense`, `add_schedule_item`, `get_event_revenue`.
 
 ---
 
